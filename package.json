@@ -1,6 +1,6 @@
 {
   "name": "@stas-kh/ngx-datatable",
-  "version": "8.1.1",
+  "version": "8.2.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,7 +17,7 @@
     "build-docs": "cross-env NODE_ENV=production ng build --prod --base-href=\"/ngx-datatable/\"",
     "predeploy-docs": "npm run build-docs",
     "deploy-docs": "angular-cli-ghpages --dir ./dist/ngx-datatable",
-    "publish": "npm publish dist/stas-kh/ngx-datatable-with-ie-fix"
+    "publish2": "npm publish dist/stas-kh/ngx-datatable-with-ie-fix"
   },
   "dependencies": {
     "@angular/animations": "~8.2.3",
